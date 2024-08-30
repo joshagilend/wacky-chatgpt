@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #FFD700;
+        }
+        header {
+            background-color: #FFD700;
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333333;
+        }
+        nav a {
+            color: #FFD700;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #FFD700;
+            color: #000000;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333333;
+            color: #FFD700;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            background-color: #111111;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #FFD700;
+            background-color: #222222;
+            color: #FFD700;
+            border-radius: 3px;
+        }
+        .contact-form button {
+            background-color: #FFD700;
+            color: #000000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #000000;
+            color: #FFD700;
+            border: 1px solid #FFD700;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Personal Webpage</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Welcome to my personal webpage! Here you can learn more about my work, skills, and experiences. I'm passionate about creating and constantly improving my skills in various fields.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Check out some of my recent projects and works. I specialize in design, development, and creative solutions that make an impact.</p>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume to learn more about my professional journey and skills.</p>
+    <a href="#" style="color: #FFD700; text-decoration: underline;">Download Resume</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
